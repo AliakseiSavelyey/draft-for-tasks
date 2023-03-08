@@ -6,4 +6,10 @@ function centuryFromYear(year) {
   }
   return centuryCount;
 }
-centuryFromYear();
+console.log(centuryFromYear(1001));
+
+// Метод Math.ceil() - округление вверх. Округляет аргумент до ближайшего большего целого.
+function century(year) {
+  return Math.ceil(year / 100);
+}
+console.log(century(13));
